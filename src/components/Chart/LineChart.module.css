@@ -1,0 +1,7 @@
+.LineChartPath {
+    stroke-width: 3;
+    fill: none;
+}
+.LineChartAxis {
+    stroke: #bdc3c7;
+}

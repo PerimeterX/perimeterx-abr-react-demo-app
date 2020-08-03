@@ -1,0 +1,65 @@
+.Card {
+    margin-bottom: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.Card .CardContent {
+    display: flex;
+}
+
+.Card .CardContent .ContentLeft {
+    flex-grow: 1;
+}
+
+.Card .CardContent .ContentRight {
+    flex-grow: 6;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card .Avatar {
+    background-color: #e8eaf6;
+    width: 56px;
+    height: 56px;
+    font-size: 2rem;
+}
+
+.Card .InnerCard {
+    flex-grow: 1;
+}
+
+.Card .CardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card .CardHeader h6 {
+    margin-left: 5px;
+    color: #4d4045;
+}
+
+.Card .CardResult {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Card .CardResult span {
+    font-size: 2em;
+}
+
+.Card .CardActions {
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.Card .CardActions svg {
+    margin-right: 20px;
+}
+
+.Card .CardActions svg.Opac {
+    opacity: 0.2;
+}

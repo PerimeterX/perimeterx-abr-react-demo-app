@@ -1,0 +1,33 @@
+.Login {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.Login .Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.Login .Avatar {
+    background-color: #e8eaf6;
+    width: 56px;
+    height: 56px;
+    font-size: 2rem;
+}
+
+.Login .Form {
+    margin-top: 8px;
+}
+
+.Login .Close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 0px;
+}
+
+.Login .Submit {
+    margin: 16px 0 32px 0;
+}

@@ -1,0 +1,11 @@
+.Toolbar {
+    flex-grow: 1;
+}
+
+.Toolbar .Title {
+    flex-grow: 1;
+}
+
+.Toolbar.MenuButton {
+    margin-right: 16px;
+}

@@ -1,0 +1,21 @@
+.Feed {
+    display: flex;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.Feed .Left {
+    flex-grow: 1;
+}
+
+.Feed .Center {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Feed .Right {
+    flex-grow: 1;
+}

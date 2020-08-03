@@ -1,0 +1,34 @@
+.Challenge {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.Challenge .Content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Challenge .BigIcon {
+    font-size: 40px;
+}
+
+.Challenge .Header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Challenge .Close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 0px;
+}
+
+.Challenge .Reference {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
